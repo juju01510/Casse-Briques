@@ -3,8 +3,8 @@ const ctx = canvas.getContext("2d");
 let ballRadius = 5;
 let x = canvas.width / 2;
 let y = canvas.height - 30;
-let dx = 2;
-let dy = -2;
+let dx = 5;
+let dy = -5;
 let paddleHeight = 5;
 let paddleWidth = 80;
 let paddleX = (canvas.width - paddleWidth) / 2;
@@ -168,8 +168,8 @@ function draw() {
 			} else {
 				x = canvas.width / 2;
 				y = canvas.height - 30;
-				dx = 2;
-				dy = -2;
+				dx = 5;
+				dy = -5;
 				paddleX = (canvas.width - paddleWidth) / 2;
 			}
 		}
